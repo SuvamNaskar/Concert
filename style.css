@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
 }
 
 html, body{
@@ -10,4 +12,33 @@ html, body{
 
 #background{
     background-color: #000;
+    height: 100%;
+    width: 50vw;
+    z-index: -99;
+    padding: 0 25vw 0 25vw;
+}
+
+#sec1{
+    height: 80vh;
+    width: 100%;
+}
+
+#sec1 p{
+    height: 110px;
+    width: 320px;
+    padding: 0;
+}
+
+#sec1 h1{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3.4vw;
+}
+
+#circle{
+    background-color: rgb(102, 70, 218);
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    z-index: -1;
+    
 }
