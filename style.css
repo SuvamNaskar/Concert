@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: #fff;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -11,7 +10,6 @@ html, body{
 }
 
 #background{
-    background-color: #000;
     height: 100%;
     width: 50vw;
     z-index: -99;
@@ -40,5 +38,9 @@ html, body{
     width: 20vw;
     border-radius: 50%;
     z-index: -1;
-    
+}
+
+button{
+    height: 50px;
+    width: 150px;
 }
